@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const workoutController = require("../controllers/workoutController");
+const workoutController = require("../controllers/Workoutcontroller");
 const auth = require("../auth");
 
 // All workout routes are protected — user must be authenticated
